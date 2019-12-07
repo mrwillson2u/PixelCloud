@@ -24,7 +24,7 @@ void draw() {
     
     Cube thisCube = cubes.get(i);
     if(i == 0) {
-      println("Dist from cube:", thisCube.distFromCam(currentAngle));
+      //println("Dist from cube:", thisCube.distFromCam(currentAngle));
     }
     thisCube.draw(currentAngle);
   }
